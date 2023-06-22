@@ -1,0 +1,29 @@
+[
+  {
+    "key": "1",
+    "id": 1,
+    "news": "ഇൻഫോസിസ് ടോപസ് എഐ",
+    "newshead": "ഇൻഫോസിസ് ടോപസ് ",
+    "address": "New York No. 1 Lake Park",
+    "imageurl": [
+      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic-ai.asianetnews.com%2Fimages%2F01gwpnmycz7jyawwcp6x3gnr0b%2Fpti03-25-2023-000155b_900x450xt.jpg&tbnid=nNAWoWqeFIz1YM&vet=12ahUKEwi2s8vGtaf_AhV6idgFHb2QDYkQMygjegUIARDAAg..i&imgrefurl=https%3A%2F%2Fwww.asianetnews.com%2Fkerala-news%2Fmalayalam-news-live-today-13-april-2023-apn-rt1bri&docid=uUyT6jgb-CHrnM&w=900&h=450&q=malyalm%20newsimage&ved=2ahUKEwi2s8vGtaf_AhV6idgFHb2QDYkQMygjegUIARDAAg",
+      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2Fb%2Fbc%2FBreaking_news_live_-_theatrical_poster.jpg%2F220px-Breaking_news_live_-_theatrical_poster.jpg&tbnid=_Fq6Tm8PTgdmHM&vet=12ahUKEwi2s8vGtaf_AhV6idgFHb2QDYkQMyhVegUIARC8AQ..i&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBreaking_News_Live&docid=QV_SuJLPaeZpzM&w=220&h=255&q=malyalm%20newsimage&ved=2ahUKEwi2s8vGtaf_AhV6idgFHb2QDYkQMyhVegUIARC8AQ"
+    ]
+  },
+  {
+    "key": "2",
+    "id": 2,
+    "news": "ഇൻഫോസിസ് ടോപസ് എഐ",
+    "newshead": "ഇൻഫോസിസ് ടോപസ് ",
+    "address": "London No. 1 Lake Park",
+    "imageurl": ["loser"]
+  },
+  {
+    "key": "3",
+    "id": 3,
+    "news": "ഇൻഫോസിസ് ടോപസ് എഐ",
+    "newshead": "ഇൻഫോസിസ് ടോപസ് ",
+    "address": "Sydney No. 1 Lake Park",
+    "imageurl": ["cool", "teacher"]
+  }
+]

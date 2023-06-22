@@ -1,0 +1,79 @@
+.mainContainer{
+  display: flex;
+  flex: 1;
+}
+.filterBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #f0f2f5;
+  border-radius: 4px;
+  flex-direction: row;
+  padding: 4px 16px 4px 8px;
+  gap: 5px;
+  width: 93px;
+  height: 32px;
+  color: "#0055A6";
+}
+.serchBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  gap: 18px;
+  width: 270px;
+  height: 32px;
+  background: #f0f2f5;
+  border-radius: 4px;
+}
+.serchInput::placeholder {
+  font-family: "Montserrat-Medium";
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+}
+.serchInput:focus {
+  border: none;
+  background: #f0f2f5;
+  outline: none;
+}
+.serchInput {
+  border: none;
+  background: #f0f2f5;
+}
+.filterText {
+  font-family: "Montserrat-Medium";
+  font-size: 13px;
+  line-height: 16px;
+  color: "red";
+}
+.checkBox {
+  font-family: "Montserrat-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #2d3f50;
+}
+.my-column {
+  background-color: rgb(14, 152, 198);
+  padding: 10px;
+}
+.newsFormLabels {
+  font-family: "Montserrat-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0055a6;
+}
+.publishBox {
+  display: flex;
+  justify-content: end;
+}

@@ -1,0 +1,126 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #fff;
+}
+
+.LoadingBox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 70vh;
+}
+
+.heading {
+	font-size: 4rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.text {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.image {
+	width: 300px;
+	margin-bottom: 2rem;
+}
+
+.subtext {
+	font-size: 1rem;
+	color: #888;
+}
+/* -------headerstyle------ */
+.pageHeaderConatiner {
+	height: 100px;
+	display: flex;
+	align-content: space-between;
+	flex-direction: column;
+	/* align-items: flex-start */
+	justify-content: flex-start;
+}
+.headerTitle {
+	font-family: "Montserrat-Bold";
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 39px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #0055a6;
+}
+.headerIconBox {
+	display: flex;
+	align-items: center;
+	height: 40%;
+	/* padding-top: 10px; */
+}
+.headerTitleBox {
+	background-color: "red";
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+.headerButtonBox {
+	margin-right: 20px;
+}
+.headerDiscription {
+	font-family: "Montserrat-Light";
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 0em;
+	padding-left: 5px;
+	color: #9ba9b6;
+}
+.headerBtn {
+	width: 167px;
+	height: 37px;
+	padding: 10px, 16px, 10px, 16px;
+	gap: 8px;
+	background-color: green;
+}
+
+@media screen and (max-width: 576px) {
+	.headerBtn {
+		width: 137px;
+		font-size: 11px;
+	}
+	.headerDiscription {
+		font-family: "Montserrat-Light";
+		font-size: 10px;
+	}
+	.headerTitle {
+		font-family: "Montserrat-Bold";
+		font-size: 27px;
+	}
+	.isDesktop {
+		display: none;
+	}
+}
+/* ----------commenDatatable-------------- */
+.commen-table-Card {
+	width: 100%;
+	height: 70vh;
+	border-color: #f5f5f5;
+}
+/* handle */
+.commen-table-custom-scrollbar ::-webkit-scrollbar {
+	width: 15px;
+	border-radius: 10px;
+}
+
+.commen-table-custom-scrollbar ::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+.commen-table-custom-scrollbar ::-webkit-scrollbar-thumb {
+	background: #c8c6c6;
+}
+
+.commen-table-custom-scrollbar ::-webkit-scrollbar-thumb:hover {
+	background: #afaeae;
+}

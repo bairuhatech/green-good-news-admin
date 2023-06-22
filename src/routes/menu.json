@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "icon": "SlHome",
+    "title": "HOME",
+    "navigete": "/Auth/home"
+  },
+
+  {
+    "id": "2",
+    "icon": "BiMoviePlay",
+    "title": "REELS",
+    "navigete": "/Auth/reels"
+  },
+  {
+    "id": "3",
+    "icon": "RxSpeakerLoud",
+    "title": "PODCAST",
+    "navigete": "/Auth/podcast"
+  },
+  {
+    "id": "4",
+    "icon": "RiLogoutCircleRLine",
+    "title": "LOGOUT",
+    "navigete": "/"
+  }
+]

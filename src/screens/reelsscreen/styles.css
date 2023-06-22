@@ -1,0 +1,41 @@
+.reeslScreen-reel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.reeslScreen-main-card {
+  background-color: #f9f9f9;
+  margin: 40px 10px;
+  /* height: 100vh; */
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.hover-overlay {
+  /* background-color: red; */
+  display: flex;
+  height: 100%;
+}
+
+.overlay-item {
+  height: 20px;
+}
+
+.like-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 10;
+  height: 100%;
+  width: 100%;
+  padding: 3px;
+}
+
+.like-item:hover {
+  background-color: rgb(254, 64, 64);
+  border-radius: 7px;
+}

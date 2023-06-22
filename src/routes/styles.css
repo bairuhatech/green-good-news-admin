@@ -1,0 +1,88 @@
+/* -------routingstyle------- */
+.routingLayout {
+  overflow-y: hidden;
+  min-height: "100vh";
+}
+.routingSider {
+  background: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.routingSiderTop {
+  height: 10vh;
+}
+.routingSiderMenu {
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.routingSiderBottom {
+  height: 30vh;
+}
+.routingContent {
+  margin: 0;
+  min-height: 280px;
+  padding: 30px;
+  padding-left: 35px;
+}
+
+.menuItem {
+  width: 96px;
+  height: 72px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.menuItemActive {
+  width: 96px;
+  height: 72px;
+  background-color: #e0e6eb;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.iconBox {
+  display: flex;
+  justify-content: "center";
+  flex-direction: column;
+  align-items: center;
+}
+.menuText {
+  font-family: "Montserrat-SemiBold";
+  color: #2d3f50;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 5px;
+}
+.menuTextActive {
+  font-family: "Montserrat-Bold";
+  color: #0055a6;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 5px;
+}
+.isMobile {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .isMobile {
+    display: block;
+  }
+  .isDesktop {
+    display: none;
+  }
+}
