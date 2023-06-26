@@ -29,9 +29,9 @@ function HomeScreen() {
 
 	const loadData = () => {
 		setIsloading(true);
-		// let url = "https://suprabhaatham-dev.herokuapp.com/api/all-news";createdAt
 		let url =
-			"https://suprabhaatham-dev.herokuapp.com/api/all-news?sort=createdAt:DESC&populate[0]=categories";
+			"https://green-good-news-server-9a460dab0f63.herokuapp.com/api/all-news?sort=createdAt:DESC&populate[0]=categories";
+
 		axios
 			.get(url)
 			.then((response) => {
